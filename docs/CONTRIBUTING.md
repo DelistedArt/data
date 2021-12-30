@@ -24,7 +24,8 @@ Example:
     "contractAddress": "0xcb88735a1eae17ff2a2abaec1ba03d877f4bc055",
     "chainId": 1,
     "platforms": [{
-        "name": "OpenSea",
+        "name": "opensea",
+        "status": "delisted",
         "dateAdded": "2021-12-28",
         "dateRemoved": "2021-12-29",
         "delistedReason": "Some reason"
