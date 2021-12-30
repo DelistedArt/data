@@ -1,14 +1,22 @@
-name: Validate JSON
+on: 
+    pull_request:
+        branches:
+            - master
 
-on: [pull_request]
+name: ValidateJSON
 
 jobs:
-  verify-json-validation:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: /lib/schema.json
-          INPUT_JSONS: /src/*
+    build:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [12.14.1]
+        steps:
+          - uses: actions/checkout@v2
+          - name: Use Node.js ${{ matrix.node-version }}
+            uses: actions/setup-node@v2
+            with:
+                node-version: ${{ matrix.node-version }}
+          - name: Install dependencies
+            run: npm install
+          - run: npm run test
