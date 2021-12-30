@@ -16,7 +16,7 @@ describe('Valid data file', function() {
   });
 
   it('should have the correct data structure', function() {
-    const ajv = new Ajv();
+    const ajv = new Ajv({strict: false});
     const schema = JSON.parse(fs.readFileSync('./tests/schema.json'));
     glob("./src/*.json", function (er, files) {
       files.forEach((file) => {
@@ -24,7 +24,7 @@ describe('Valid data file', function() {
         let data = JSON.parse(fs.readFileSync(file));
         let validate = ajv.compile(schema);
         let valid = validate(data);
-        assert.equal(true, valid, `Invalid Schema for ${filename}`);
+        assert.equal(true, valid, `Invalid Schema for file ${filename}`);
       });
     });
   })
