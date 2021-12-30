@@ -1,5 +1,4 @@
 - name: Validate JSON
-  uses: OrRosenblatt/validate-json-action@0.1.0
 
 on: [pull_request]
 
