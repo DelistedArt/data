@@ -9,8 +9,7 @@
             "type": "string"
         },
         "chain": {
-            "type": "string",
-            "enum": ["eth", "polygon", "matic", "bsc"]
+            "type": "integer"
         },
         "delistedDate": {
             "type": "string",
