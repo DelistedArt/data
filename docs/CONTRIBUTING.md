@@ -8,11 +8,11 @@ The schema for the file contents can be found in `tests/schema.json`.
 
 * `contractAddresss` - the 0x address of the contract
 * `chainId` - the chain id the contract is deployed on (see https://chainlist.org/)
-* `platforms.name` - the name of the marketplace it is (de)listed on (`opensea`, `rarible`)
-* `platforms.status` - the status of the listing, is it `listed` or `delisted`
-* `platforms.dateAdded` - the date (`YYYY-MM-DD`) it was added to the marketplace
-* `platforms.dateRemoved` - the date (`YYYY-MM-DD`) it was delisted to the marketplace
-* `platforms.delistedReason` - the reason the marketplace delisted the project
+* `platforms[].name` - the name of the marketplace it is (de)listed on (`opensea`, `rarible`)
+* `platforms[].status` - the status of the listing, is it `listed` or `delisted`
+* `platforms[].dateAdded` - the date (`YYYY-MM-DD`) it was added to the marketplace
+* `platforms[].dateRemoved` - the date (`YYYY-MM-DD`) it was delisted to the marketplace
+* `platforms[].delistedReason` - the reason the marketplace delisted the project
 * `links.twitter` - a link to the projects twitter account
 * `links.discord` - a link to the projects discord server
 * `links.website` - a link to the projects website
