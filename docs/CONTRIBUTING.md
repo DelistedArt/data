@@ -16,6 +16,7 @@ The schema for the file contents can be found in `tests/schema.json`.
 * `links.twitter` - a link to the projects twitter account
 * `links.discord` - a link to the projects discord server
 * `links.website` - a link to the projects website
+* `images.primary` - a link to the projects primary logo/image
 
 Example:
 
