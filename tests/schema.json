@@ -56,6 +56,14 @@
                     "type": "string"
                 }
             }
+        },
+        "images": {
+            "type": "object",
+            "properties": {
+                "primary": {
+                    "type":"string"
+                }
+            }
         }
 	},
 	"required": [

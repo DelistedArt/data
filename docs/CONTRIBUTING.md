@@ -34,6 +34,9 @@ Example:
         "twitter": "phaycbot",
         "discord": "v9mWdS3H",
         "website": "https://phaycs.com/"
+    },
+    "images": {
+        "primary": "https://some-image-server.com/image.jpg"
     }
 }
 ```
