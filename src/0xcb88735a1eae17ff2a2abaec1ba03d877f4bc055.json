@@ -12,5 +12,8 @@
         "twitter": "phaycbot",
         "discord": "v9mWdS3H",
         "website": "https://phaycs.com/"
+    },
+    "images": {
+        "primary": "https://pbs.twimg.com/profile_images/1475514990941679622/Jpdjw-tM_400x400.jpg"
     }
 }
