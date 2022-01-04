@@ -1,0 +1,20 @@
+{
+    "contractAddress": "0xfEe84e716845ec7423c863fc72881804F8BD8441",
+    "collectionName": "Non-Fungible Olive Gardens",
+    "chainId": 1,
+    "platforms": [{
+        "name": "opensea",
+        "status": "delisted",
+        "dateAdded": "2021-12-17",
+        "dateRemoved": "2021-12-20",
+        "delistedReason": "OliveGarden sent a legal letter to takedown"
+    }],
+    "links": {
+        "twitter": "NFOGtweets",
+        "discord": "G9q5XbSSqr",
+        "website": "https://nonfungibleolivegardens.com/"
+    },
+    "images": {
+        "primary": "https://nonfungibleolivegardens.com/images/logo.png"
+    }
+}
