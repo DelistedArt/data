@@ -5,6 +5,9 @@
             "type": "string",
             "pattern": "^0x[a-fA-F0-9]{40}$"
         },
+        "collectionName": {
+            "type": "string"
+        },
         "chainId": {
             "type": "integer"
         },
@@ -68,6 +71,7 @@
 	},
 	"required": [
         "contractAddress",
+        "collectionName",
         "platforms",
         "chainId",
         "links"
