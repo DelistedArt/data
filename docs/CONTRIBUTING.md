@@ -7,6 +7,7 @@ You may add a project to this repository by opening a pull request. In your pull
 The schema for the file contents can be found in `tests/schema.json`.
 
 * `contractAddresss` - the 0x address of the contract
+* `collectionName` - the collection name (contract name)
 * `chainId` - the chain id the contract is deployed on (see https://chainlist.org/)
 * `platforms[].name` - the name of the marketplace it is (de)listed on (`opensea`, `rarible`)
 * `platforms[].status` - the status of the listing, is it `listed` or `delisted`
@@ -23,6 +24,7 @@ Example:
 ```json
 {
     "contractAddress": "0xcb88735a1eae17ff2a2abaec1ba03d877f4bc055",
+    "collectionName": "PHAYC",
     "chainId": 1,
     "platforms": [{
         "name": "opensea",
