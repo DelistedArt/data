@@ -1,0 +1,20 @@
+{
+    "contractAddress": "0x3c76001c4D31C7F25A10235ddA4eCDDFe5E719f4",
+    "collectionName": "Art Wars",
+    "chainId": 1,
+    "platforms": [{
+        "name": "opensea",
+        "status": "delisted",
+        "dateAdded": "2021-11-06",
+        "dateRemoved": "2021-11-22",
+        "delistedReason": "Using art without permission - possible legal action"
+    }],
+    "links": {
+        "twitter": "ArtWarsNFT",
+        "discord": "artwars",
+        "website": "https://artwarsnft.com/"
+    },
+    "images": {
+        "primary": "https://pbs.twimg.com/profile_images/1450290286727335938/JrlTg8kf_400x400.jpg"
+    }
+}
