@@ -13,9 +13,9 @@ async function postData(url = '') {
   return response;
 }
 
-const token = process.env.WORKFLOW_GH_TOKEN;
+const token = process.env.NETLIFY_DEPLOY_WEBHOOK_KEY;
 if (!token) {
-  throw new Error('WORKFLOW_GH_TOKEN is not set');
+  throw new Error('NETLIFY_DEPLOY_WEBHOOK_KEY is not set');
 }
 
 postData(`${NETLIFY_URL}${token}`)
