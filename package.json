@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "mocha ./tests/index.js"
+    "test": "mocha ./tests/index.js",
+    "deploy": "ts-node deploy/deploy.ts"
   },
   "repository": {
     "type": "git",
