@@ -4,6 +4,8 @@ on:
             - master
 
 name: Deployment
+env: 
+  NETLIFY_DEPLOY_WEBHOOK_KEY: ${{ secrets.NETLIFY_DEPLOY_WEBHOOK_KEY }}
 
 jobs:
     build:
