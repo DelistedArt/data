@@ -1,6 +1,6 @@
 {
     "contractAddress": "0x3c76001c4D31C7F25A10235ddA4eCDDFe5E719f4",
-    "collectionName": "Art Wars (test autodeploy)",
+    "collectionName": "Art Wars",
     "chainId": 1,
     "platforms": [{
         "name": "opensea",
