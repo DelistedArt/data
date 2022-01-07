@@ -16,5 +16,8 @@
     },
     "images": {
         "primary": "https://pbs.twimg.com/profile_images/1475514990941679622/Jpdjw-tM_400x400.jpg"
-    }
+    },
+    "news": [{
+        "link": "https://www.theverge.com/2021/12/30/22860010/bored-ape-yacht-club-payc-phayc-copycat-nft"
+    }]
 }
