@@ -18,6 +18,7 @@ The schema for the file contents can be found in `tests/schema.json`.
 * `links.discord` - a link to the projects discord server
 * `links.website` - a link to the projects website
 * `images.primary` - a link to the projects primary logo/image
+* `news[].link` - a link to a news article that talks about the project/collection
 
 Example:
 
@@ -40,6 +41,9 @@ Example:
     },
     "images": {
         "primary": "https://some-image-server.com/image.jpg"
-    }
+    },
+    "news": [{
+        "link": "https://www.theverge.com/2021/12/30/22860010/bored-ape-yacht-club-payc-phayc-copycat-nft"
+    }]
 }
 ```

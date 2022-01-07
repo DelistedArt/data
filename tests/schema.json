@@ -67,6 +67,18 @@
                     "type":"string"
                 }
             }
+        },
+        "news": {
+            "type": "array",
+            "minItems": 0,
+            "items": [{
+                "type": "object",
+                "properties": {
+                    "link": {
+                        "type": "string"
+                    }
+                }
+            }]
         }
 	},
 	"required": [
@@ -74,7 +86,8 @@
         "collectionName",
         "platforms",
         "chainId",
-        "links"
+        "links",
+        "news"
     ],
     "additionalProperties": false
 }
